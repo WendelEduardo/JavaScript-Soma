@@ -1,18 +1,19 @@
 body{
     margin-top:150px;
     margin-left:150px;
-    text-align: center;
+    text-align: left;
     background:rgb(208, 255, 120);
 }
 header{
     margin-bottom: 10px;
 }
 section{
-    margin:auto;
+    margin-right:auto;
     background:white;
     padding:15px;
     border-radius: 10px;
     width:700px;
+    text-align: center;
 }
 h1{
     font:normal 30pt arial; 
@@ -23,8 +24,8 @@ div#res{
     font:normal 30pt arial;
 }
 input{
-    font:normal 10pt arial;
-    width:150px;
+    font:normal 13pt arial;
+    width:160px;
     height:30px;
     text-align: center;
     transition:.3s;

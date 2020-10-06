@@ -12,8 +12,8 @@
         <h1><strong>Somando valores</strong></h1>
     </header>
     <section>
-        <input type="number" name="txtn1" id="txtn1" placeholder=" Digite um número"> +
-        <input type="number" name="txt2" id="txtn2" placeholder=" Digite um número">
+        <input type="number" name="txtn1" id="txtn1" placeholder="Digite um número"> +
+        <input type="number" name="txt2" id="txtn2" placeholder="Digite outro Valor">
         <input type="button" value="Somar" id="somar" onclick="somar()">
     <div id="res"></div>
     </section>
@@ -32,7 +32,7 @@
             }else if(n2 == ""){
                 window.alert("Digite outro Valor!")
             }else{
-                res.innerHTML = "O resultado da operação "+n1+ " + "+ n2 + " é: <br><br>"+ s 
+                res.innerHTML = "O resultado da operação "+n1+ " + "+ n2 + " é: <br><br><strong>"+ s +"</strong>"
             }
         }
     </script>
