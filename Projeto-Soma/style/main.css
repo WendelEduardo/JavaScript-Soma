@@ -1,0 +1,36 @@
+body{
+    margin-top:150px;
+    margin-left:150px;
+    text-align: center;
+    background:rgb(208, 255, 120);
+}
+header{
+    margin-bottom: 10px;
+}
+section{
+    margin:auto;
+    background:white;
+    padding:15px;
+    border-radius: 10px;
+    width:700px;
+}
+h1{
+    font:normal 30pt arial; 
+    font-style:oblique;
+}
+div#res{
+    margin-top:40px;
+    font:normal 30pt arial;
+}
+input{
+    font:normal 10pt arial;
+    width:150px;
+    height:30px;
+    text-align: center;
+    transition:.3s;
+}
+input#somar:hover{
+    font:normal 18pt sans-serif;
+    width:180px;
+    height:40px;
+}

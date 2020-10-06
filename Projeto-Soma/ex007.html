@@ -4,45 +4,20 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Somando números</title>
-    <link rel="shortcut icon" href="bloco-de-anotacoes.png">
+    <link rel="shortcut icon" href="img/bloco-de-anotacoes.png">
+    <link rel="stylesheet" href="style/main.css">
 </head>
-<style>
-    *{
-        margin:0;
-        padding:0;
-    }
-    body{
-        margin-top:150px;
-        margin-left:150px;
-    }
-    h1{
-        font:normal 30pt arial; 
-        margin-bottom:40px;
-    }
-    div#res{
-        margin-top:40px;
-        font:normal 30pt arial;
-    }
-    input{
-        font:normal 10pt arial;
-        width:150px;
-        height:30px;
-        text-align: center;
-        transition:.3s;
-    }
-    input:hover{
-        font:normal 15pt arial;
-        width:180px;
-        height:40px;
-    }
-</style>
-
 <body>
-    <h1>Somando valores</h1>
-    <input type="number" name="txtn1" id="txtn1" placeholder=" Digite um número"> +
-    <input type="number" name="txt2" id="txtn2" placeholder=" Digite um número">
-    <input type="button" value="Somar" onclick="somar()">
+    <header>
+        <h1><strong>Somando valores</strong></h1>
+    </header>
+    <section>
+        <input type="number" name="txtn1" id="txtn1" placeholder=" Digite um número"> +
+        <input type="number" name="txt2" id="txtn2" placeholder=" Digite um número">
+        <input type="button" value="Somar" id="somar" onclick="somar()">
     <div id="res"></div>
+    </section>
+    
     <script>
         function somar(){
             var tn1 = window.document.getElementById('txtn1')
@@ -57,7 +32,7 @@
             }else if(n2 == ""){
                 window.alert("Digite outro Valor!")
             }else{
-                res.innerHTML = "O resultado da operação "+n1+ " + "+ n2 + ", é: "+ s 
+                res.innerHTML = "O resultado da operação "+n1+ " + "+ n2 + " é: <br><br>"+ s 
             }
         }
     </script>
